@@ -121,12 +121,14 @@ header section .content p {
     color: rgb(104, 104, 104);
     margin-top: 15px;
 }
-header section .img-box{
+
+header section .img-box {
     position: relative;
     height: 100%;
     z-index: 2;
 }
-header section .img-box img{
+
+header section .img-box img {
     position: absolute;
     width: 100%;
     height: 80%;
@@ -173,15 +175,16 @@ header .recipe-info .recipe-lists .list-box {
     margin: auto;
 }
 
-header .recipe-info .recipe-lists .list-box li {
+header .recipe-info .recipe-lists .list-box a, li {
     font-size: 10px;
+    list-style: none;
+    text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px;
-    padding: 4px;
+    padding: 1px;
     background: #ffd8ea;
-    list-style: none;
     border: none;
     border-radius: 10px;
 }
@@ -293,9 +296,10 @@ header .recipe-info .card .btn button:nth-child(1) {
 }
 
 header .recipe-info .card .btn button:nth-child(1):hover {
-color: red;
-background: white;
+    color: red;
+    background: white;
 }
+
 header .recipe-info .card .btn button i {
     font-size: 12px;
     margin-right: 5px;
