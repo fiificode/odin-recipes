@@ -169,7 +169,7 @@ header section .img-bx img {
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
-    object-fit:cover;
+    object-fit: cover;
 }
 
 header .info-container {
@@ -251,7 +251,7 @@ header .info-container .listcontainer .left-list ul {
 
 header .info-container .listcontainer .left-list ul li {
     /* margin-bottom: -11px; */
-    font-size: 25px;
+    font-size: 23px;
     color: gray;
     /* padding-bottom: 1px; */
 }
@@ -261,8 +261,8 @@ header .info-container .listcontainer .right-list {
     height: auto;
     margin-left: 5px;
     padding-left: 10px;
-     align-items: center;
-     justify-content: center;
+    align-items: center;
+    justify-content: center;
     /* border: 1px solid #000; */
 }
 
@@ -272,8 +272,8 @@ header .info-container .listcontainer .right-list h5 {
 }
 
 header .info-container .listcontainer .right-list p {
-    font-size: 24px;
-    color: gray;
+    font-size: 19px;
+    color: rgb(43, 41, 41);
     padding-bottom: 5px;
 }
 

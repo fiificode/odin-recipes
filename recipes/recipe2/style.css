@@ -155,7 +155,6 @@ header section {
     height: 30%;
     margin: auto;
     padding-bottom: 10px;
-    /* border: 1px solid #000; */
 }
 
 header section .img-bx {
@@ -169,7 +168,6 @@ header section .img-bx img {
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
-    object-fit:cover;
 }
 
 header .info-container {
@@ -214,7 +212,7 @@ header .info-container .headerTitle {
 header .info-container .headerTitle .leftTitle {
     width: 30%;
     height: auto;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 100;
     /* border: 1px solid #000; */
 }
@@ -222,13 +220,14 @@ header .info-container .headerTitle .leftTitle {
 header .info-container .headerTitle .rightTitle {
     width: 65%;
     height: auto;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 100;
+    /* border: 1px solid #000; */
 }
 
 header .info-container .listcontainer {
     width: 100%;
-    height: 80%;
+    height: 85%;
     display: flex;
     margin-top: 10px;
     /* border: 1px solid #000; */
@@ -236,7 +235,8 @@ header .info-container .listcontainer {
 
 header .info-container .listcontainer .left-list {
     width: 30%;
-    height: auto;
+    height: 95%;
+    border-radius: 5px;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -250,31 +250,28 @@ header .info-container .listcontainer .left-list ul {
 }
 
 header .info-container .listcontainer .left-list ul li {
-    /* margin-bottom: -11px; */
-    font-size: 25px;
+    letter-spacing: 1px;
+    font-size: 22px;
     color: gray;
-    /* padding-bottom: 1px; */
 }
 
 header .info-container .listcontainer .right-list {
     width: 70%;
-    height: auto;
+    height: 95%;
     margin-left: 5px;
     padding-left: 10px;
-     align-items: center;
-     justify-content: center;
     /* border: 1px solid #000; */
 }
 
 header .info-container .listcontainer .right-list h5 {
-    font-size: 20px;
+    font-size: 16px;
     padding-top: 10px;
 }
 
 header .info-container .listcontainer .right-list p {
-    font-size: 24px;
+    font-size: 19px;
     color: gray;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
 
 .copyright {
